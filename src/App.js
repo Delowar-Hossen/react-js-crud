@@ -146,7 +146,7 @@ function App() {
                   <td>{item.firstName}</td>
                   <td>{item.lastName}</td>
                   <td>{item.age}</td>
-                  <td>
+                  <td> 
                     <button className="btn btn-primary" onClick={ () => handleEdit(item.id) } >Edit</button> &nbsp;
                     <button className="btn btn-danger" onClick={ () => handleDelete(item.id) } >Delete</button>
 
